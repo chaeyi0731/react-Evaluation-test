@@ -19,6 +19,9 @@
 .width-20vw {
   width: 20vw;
 }
+.width-25vw {
+  width: 25vw;
+}
 .width-15vw {
   width: 15vw;
 }
@@ -54,6 +57,12 @@
 }
 .justifyContent-center {
   justify-content: center;
+}
+.justifyContent-spb {
+  justify-content: space-between;
+}
+.justifyContent-ard {
+  justify-content: space-around;
 }
 
 .align-items {
