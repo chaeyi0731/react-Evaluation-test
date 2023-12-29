@@ -8,6 +8,17 @@
   align-items: center;
 }
 
+ul {
+  width: 10vw;
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
 li {
   list-style: none;
+  width: 6.5vw;
+  height: 2.5vh;
+  background-color: #adadad;
 }
