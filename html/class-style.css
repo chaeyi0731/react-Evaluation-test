@@ -30,7 +30,9 @@
 .width-10vw {
   width: 10vw;
 }
-
+.width-500px {
+  width: 500px;
+}
 /* 위치 높이 */
 .height-100vh {
   height: 100vh;
