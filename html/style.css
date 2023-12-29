@@ -16,7 +16,6 @@ ul {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  color: #353535;
 }
 li {
   list-style: none;
@@ -24,4 +23,15 @@ li {
   height: 2.5vh;
   font-size: 12px;
   text-align: center;
+  position: relative;
+  color: #919191;
+}
+
+#dot {
+  width: 3px;
+  height: 3px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
 }

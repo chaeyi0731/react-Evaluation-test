@@ -9,7 +9,6 @@
 .width-70vw {
   width: 70vw;
 }
-
 .width-50vw {
   width: 50vw;
 }
@@ -138,6 +137,9 @@
 .fontAlign-center {
   text-align: center;
 }
+.fontAlign-end {
+  text-align: end;
+}
 .fontColor-white {
   color: white;
 }
@@ -148,6 +150,9 @@
 .fontColor-353535 {
   color: #353535;
 }
+.fontColor-black {
+  color: black;
+}
 
 .borderRadius-10 {
   border-radius: 10px;
@@ -155,4 +160,12 @@
 
 .marginLeft-50px {
   margin-left: 50px;
+}
+
+position-ab {
+  position: absolute;
+}
+
+.left-300 {
+  left: 300px;
 }
