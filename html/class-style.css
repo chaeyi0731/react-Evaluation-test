@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 위치 너비 */
+.width-100vw {
+  width: 100vw;
+}
+.width-70vw {
+  width: 70vw;
+}
+
+.width-50vw {
+  width: 50vw;
+}
+.width-40vw {
+  width: 40vw;
+}
+.width-20vw {
+  width: 20vw;
+}
+.width-15vw {
+  width: 15vw;
+}
+.width-10vw {
+  width: 10vw;
+}
+
+/* 위치 높이 */
+.height-100vh {
+  height: 100vh;
+}
+.height-80vh {
+  height: 80vh;
+}
+.height-70vh {
+  height: 70vh;
+}
+.height-60vh {
+  height: 60vh;
+}
+.height-50vh {
+  height: 50vh;
+}
+
+/* 백그라운드 컬러 */
+.bgc-d9d9d9 {
+  background-color: #d9d9d9;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+.justifyContent-center {
+  justify-content: center;
+}
+
+.align-items {
+  align-items: center;
+}
+
+/* 외곽선 */
+.border-4px {
+  border: 4px solid black;
+}
+.border-1px {
+  border: 1px solid black;
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
