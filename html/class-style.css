@@ -16,6 +16,9 @@
 .width-40vw {
   width: 40vw;
 }
+.width-30vw {
+  width: 30vw;
+}
 .width-20vw {
   width: 20vw;
 }
@@ -39,16 +42,46 @@
 .height-70vh {
   height: 70vh;
 }
+.height-65vh {
+  height: 65vh;
+}
 .height-60vh {
   height: 60vh;
 }
 .height-50vh {
   height: 50vh;
 }
+.height-40vh {
+  height: 40vh;
+}
+.height-45vh {
+  height: 45vh;
+}
+.height-20vh {
+  height: 20vh;
+}
+.height-15vh {
+  height: 15vh;
+}
+.height-10vh {
+  height: 10vh;
+}
+.height-5vh {
+  height: 5vh;
+}
+.height-4vh {
+  height: 4vh;
+}
+.height-3vh {
+  height: 3vh;
+}
 
 /* 백그라운드 컬러 */
 .bgc-d9d9d9 {
   background-color: #d9d9d9;
+}
+.bgc-white {
+  background-color: white;
 }
 
 /* flex */
@@ -67,6 +100,10 @@
 
 .align-items {
   align-items: center;
+}
+
+.flexDirection-co {
+  flex-direction: column;
 }
 
 /* 외곽선 */
