@@ -83,6 +83,9 @@
 .bgc-white {
   background-color: white;
 }
+.bgc-9191914D {
+  background-color: #9191914d;
+}
 
 /* flex */
 .flex {
@@ -112,4 +115,44 @@
 }
 .border-1px {
   border: 1px solid black;
+}
+/* font 사이즈 */
+.font-2em {
+  font-size: 2em;
+}
+.font-1-5 {
+  font-size: 1.5em;
+}
+.fontSize-9 {
+  font-size: 9px;
+}
+.fontSize-8 {
+  font-size: 8px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.fontAlign-jus {
+  text-align: justify;
+}
+.fontAlign-center {
+  text-align: center;
+}
+.fontColor-white {
+  color: white;
+}
+.fontColor-919191 {
+  color: #919191;
+}
+
+.fontColor-353535 {
+  color: #353535;
+}
+
+.borderRadius-10 {
+  border-radius: 10px;
+}
+
+.marginLeft-50px {
+  margin-left: 50px;
 }

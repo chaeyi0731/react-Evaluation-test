@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #e8e8e8;
 }
 
 ul {
@@ -15,10 +16,12 @@ ul {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  color: #353535;
 }
 li {
   list-style: none;
   width: 6.5vw;
   height: 2.5vh;
-  background-color: #adadad;
+  font-size: 12px;
+  text-align: center;
 }
