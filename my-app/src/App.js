@@ -21,6 +21,7 @@ const App = () => {
     const person = people.find((p) => p.name === searchName);
     setSelectedPerson(person);
   };
+
   return (
     <div id="root">
       <div className="width-50vw height-70vh border-4px flex align-items justifyContent-ard">
@@ -57,11 +58,13 @@ const App = () => {
             </div>
           </div>
           <div className="width-30vw height-10vh flex justifyContent-ard align-items flexDirection-co">
-            <div className="width-25vw height-4vh fontSize-8 bgc-white borderRadius-10">
-              <p className="marginLeft-50px fontColor-919191 font-16" id="search">
-                Write your name.
-              </p>
-            </div>
+            <input
+              className="width-25vw height-4vh fontSize-8 bgc-white borderRadius-10"
+              id="search"
+              value={searchName}
+              onChange={(e) => setSearchName(e.target.value)}
+              placeholder="Write your name."
+            />
             <button className="width-25vw height-4vh fontColor-white borderRadius-10 bgc-9191914D font-16" onClick={onSearch}>
               Show
             </button>
