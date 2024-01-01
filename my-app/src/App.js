@@ -6,6 +6,7 @@ const App = () => {
   const [people, setPeople] = useState([]);
   const [selectedPerson, setSelectedPerson] = useState(null);
   const [searchName, setSearchName] = useState('');
+  const [selectedName, setSelectedName] = useState('');
 
   useEffect(() => {
     const sortedPeople = info.sort((a, b) => a.name.localeCompare(b.name, 'ko'));
@@ -13,6 +14,7 @@ const App = () => {
   }, []);
 
   const onClickName = (name) => {
+    setSelectedName(name);
     const person = people.find((p) => p.name === name);
     setSelectedPerson(person);
   };
@@ -32,11 +34,12 @@ const App = () => {
                 key={person.name}
                 onClick={() => onClickName(person.name)}
                 style={{
-                  color: selectedPerson && selectedPerson.name === person.name ? 'black' : '#919191',
-                  textAlign: selectedPerson && selectedPerson.name === person.name ? 'end' : 'center',
+                  color: selectedName === person.name ? 'black' : '#919191',
+                  textAlign: selectedName === person.name ? 'end' : 'center',
                 }}
               >
                 {person.name}
+                {selectedName === person.name && <div className="dot"></div>}
               </li>
             ))}
           </ul>
