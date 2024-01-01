@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 위치 너비 */
+.width-100vw {
+  width: 100vw;
+}
+.width-70vw {
+  width: 70vw;
+}
+.width-50vw {
+  width: 50vw;
+}
+.width-40vw {
+  width: 40vw;
+}
+.width-30vw {
+  width: 30vw;
+}
+.width-20vw {
+  width: 20vw;
+}
+.width-25vw {
+  width: 25vw;
+}
+.width-15vw {
+  width: 15vw;
+}
+.width-10vw {
+  width: 10vw;
+}
+.width-500px {
+  width: 500px;
+}
+/* 위치 높이 */
+.height-100vh {
+  height: 100vh;
+}
+.height-80vh {
+  height: 80vh;
+}
+.height-70vh {
+  height: 70vh;
+}
+.height-65vh {
+  height: 65vh;
+}
+.height-60vh {
+  height: 60vh;
+}
+.height-50vh {
+  height: 50vh;
+}
+.height-40vh {
+  height: 40vh;
+}
+.height-45vh {
+  height: 45vh;
+}
+.height-20vh {
+  height: 20vh;
+}
+.height-15vh {
+  height: 15vh;
+}
+.height-10vh {
+  height: 10vh;
+}
+.height-5vh {
+  height: 5vh;
+}
+.height-4vh {
+  height: 4vh;
+}
+.height-3vh {
+  height: 3vh;
+}
+
+/* 백그라운드 컬러 */
+.bgc-d9d9d9 {
+  background-color: #d9d9d9;
+}
+.bgc-white {
+  background-color: white;
+}
+.bgc-9191914D {
+  background-color: #9191914d;
+}
+
+/* flex */
+.flex {
+  display: flex;
+}
+.justifyContent-center {
+  justify-content: center;
+}
+.justifyContent-spb {
+  justify-content: space-between;
+}
+.justifyContent-ard {
+  justify-content: space-around;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.flexDirection-co {
+  flex-direction: column;
+}
+
+/* 외곽선 */
+.border-4px {
+  border: 4px solid black;
+}
+.border-1px {
+  border: 1px solid black;
+}
+/* font 사이즈 */
+.font-2em {
+  font-size: 2em;
+}
+.font-1-5 {
+  font-size: 1.5em;
+}
+.fontSize-9 {
+  font-size: 9px;
+}
+.fontSize-8 {
+  font-size: 8px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.fontAlign-jus {
+  text-align: justify;
+}
+.fontAlign-center {
+  text-align: center;
+}
+.fontAlign-end {
+  text-align: end;
+}
+.fontColor-white {
+  color: white;
+}
+.fontColor-919191 {
+  color: #919191;
+}
+
+.fontColor-353535 {
+  color: #353535;
+}
+.fontColor-black {
+  color: black;
+}
+
+.borderRadius-10 {
+  border-radius: 10px;
+}
+
+.marginLeft-50px {
+  margin-left: 50px;
+}
+
+position-ab {
+  position: absolute;
+}
+
+.left-300 {
+  left: 300px;
+}
