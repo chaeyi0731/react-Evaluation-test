@@ -1,17 +1,18 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
+const path = require('path');
 const port = 3000;
 
 app.get('/', (req, res) => {
-  fs.readFile('./html/index.html', (err, data) => {
+  const filePath = path.join(__dirname, './html/index.html');
+  res.sendFile(filePath, (err) => {
     if (err) {
-      res.writeHead(200, 'Internal Server Error');
-    } else {
-      res.send(data);
+      res.status(500).send('Internal Server Error');
     }
   });
 });
+
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
